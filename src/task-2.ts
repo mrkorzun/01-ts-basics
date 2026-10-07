@@ -3,8 +3,13 @@
 // Зроби поле description необов’язковим – не всі товари можуть його мати.
 // Типізуй змінну product за допомогою створеного інтерфейсу.
 // Залиш властивості обʼєкта product і їх значення без змін.
+interface Product {
+  readonly id: number;
+  title: string;
+  description?: string;
+}
 
-const product = {
+const product: Product = {
   id: 1,
   title: 'Tablet',
   description: 'Compact and fast',

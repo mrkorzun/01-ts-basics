@@ -3,7 +3,7 @@
 // Типізуй повернення функції, зауваж що вона нічого явно не повертає.
 // Залиш реалізацію функції без змін.
 
-function logStatus(status) {
+function logStatus(status: 'loading' | 'success' | 'error'): void {
   if (status === 'loading') {
     console.log('Loading...');
   } else if (status === 'success') {

@@ -2,9 +2,9 @@
 // Переконайся, що TypeScript правильно визначає тип, і не видає помилку.
 // Залиш назви змінних і їх значення без змін.
 
-const name = 'Alice';
-const age = 30;
-const isOnline = true;
+const name: string = 'Alice';
+const age: number = 30;
+const isOnline: boolean = true;
 
 console.log(`Name: ${name}`);
 console.log(`Age: ${age}`);
